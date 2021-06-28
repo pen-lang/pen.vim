@@ -12,7 +12,7 @@ syn keyword penImport import
 syn keyword penTypeDefinition type
 
 syn match penComment "#.*"
-syn match penDelimiter "[,()\[\]{}]"
+syn match penDelimiter "[,()\[\]{}];'"
 syn match penNumber "-\?\(\<\d\+\(\.\d\+\)\?\>\)"
 syn match penOperator "\(&\||\|->\|=\|==\|/=\|<=\|>=\|<\|>\|+\|-\|*\|/\|?\)"
 
