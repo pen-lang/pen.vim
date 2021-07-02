@@ -8,6 +8,7 @@ syn keyword penBoolean true false
 syn keyword penNone none
 syn keyword penConditional else if
 syn keyword penExport export
+syn keyword penForeign foreign
 syn keyword penImport import
 syn keyword penTypeDefinition type
 
@@ -23,6 +24,7 @@ hi def link penComment Comment
 hi def link penConditional Conditional
 hi def link penDelimiter Delimiter
 hi def link penExport PreProc
+hi def link penForeign Keyword
 hi def link penImport Include
 hi def link penNone Constant
 hi def link penNumber Number
