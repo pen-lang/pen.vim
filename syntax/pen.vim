@@ -10,6 +10,7 @@ syn keyword penConditional else if
 syn keyword penExport export
 syn keyword penForeign foreign
 syn keyword penImport import
+syn keyword penType boolean error none number string
 syn keyword penTypeDefinition type
 
 syn match penComment "#.*"
@@ -30,4 +31,5 @@ hi def link penNone Constant
 hi def link penNumber Number
 hi def link penOperator Operator
 hi def link penString String
+hi def link penType Type
 hi def link penTypeDefinition TypeDef
