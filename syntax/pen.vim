@@ -16,7 +16,7 @@ syn keyword penTypeDefinition type
 syn match penComment "#.*"
 syn match penDelimiter "[,()\[\]{}];'"
 syn match penNumber "-\?\(\<\d\+\(\.\d\+\)\?\>\)"
-syn match penOperator "\(&\||\|->\|=\|==\|/=\|<=\|>=\|<\|>\|+\|-\|*\|/\|?\)"
+syn match penOperator "\(&\||\|->\|=\|==\|/=\|<=\|>=\|<\|>\|+\|-\|*\|/\|?\|!\)"
 
 syn region penString start="\"" skip="\\\"" end="\""
 
