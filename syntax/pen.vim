@@ -10,7 +10,7 @@ syn keyword penConditional else if
 syn keyword penExport export
 syn keyword penForeign foreign
 syn keyword penImport import
-syn keyword penType boolean error none number string
+syn keyword penType any boolean error none number string
 syn keyword penTypeDefinition type
 
 syn match penComment "#.*"
