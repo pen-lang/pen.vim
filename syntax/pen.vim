@@ -8,7 +8,7 @@ syn keyword penAs as
 syn keyword penBoolean true false
 syn keyword penNone none
 syn keyword penConditional else if
-syn keyword penExport export
+syn keyword penExport export from
 syn keyword penForeign foreign
 syn keyword penImport import
 syn keyword penType any boolean error none number string
