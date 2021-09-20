@@ -1,5 +1,1 @@
-augroup Pen
-	autocmd!
-augroup end
-
-autocmd Pen BufNewFile,BufRead *.pen set filetype=pen
+autocmd BufNewFile,BufRead *.pen set filetype=pen
