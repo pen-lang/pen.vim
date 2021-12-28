@@ -4,10 +4,10 @@ endif
 
 let b:current_syntax = 'pen'
 
-syn keyword penAs as
+syn keyword penKeyword go
 syn keyword penBoolean true false
 syn keyword penNone none
-syn keyword penConditional else if
+syn keyword penConditional as else if
 syn keyword penExport export from
 syn keyword penForeign foreign
 syn keyword penImport import
@@ -21,7 +21,7 @@ syn match penOperator "\(&\||\|->\|=\|==\|/=\|<=\|>=\|<\|>\|+\|-\|*\|/\|?\|!\)"
 
 syn region penString start="\"" skip="\\\"" end="\""
 
-hi def link penAs Keyword
+hi def link penKeyword Keyword
 hi def link penBoolean Boolean
 hi def link penComment Comment
 hi def link penConditional Conditional
