@@ -8,6 +8,7 @@ syn keyword penKeyword go
 syn keyword penBoolean true false
 syn keyword penNone none
 syn keyword penConditional as else if
+syn keyword penRepeat for in
 syn keyword penExport export from
 syn keyword penForeign foreign
 syn keyword penImport import
@@ -25,6 +26,7 @@ hi def link penKeyword Keyword
 hi def link penBoolean Boolean
 hi def link penComment Comment
 hi def link penConditional Conditional
+hi def link penRepeat Repeat
 hi def link penDelimiter Delimiter
 hi def link penExport PreProc
 hi def link penForeign Keyword
