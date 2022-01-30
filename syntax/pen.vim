@@ -14,8 +14,9 @@ syn keyword penForeign foreign
 syn keyword penImport import
 syn keyword penType any boolean error none number string
 syn keyword penTypeDefinition type
+syn keyword penTodo TODO FIXME HACK XXX
 
-syn match penComment "#.*"
+syn match penComment "#.*" contains=penTodo
 syn match penDelimiter "[,()\[\]{}];'"
 syn match penNumber "-\?\(\<\d\+\(\.\d\+\)\?\>\)"
 syn match penOperator "\(&\||\|->\|=\|==\|/=\|<=\|>=\|<\|>\|+\|-\|*\|/\|?\|!\)"
@@ -37,3 +38,4 @@ hi def link penOperator Operator
 hi def link penString String
 hi def link penType Type
 hi def link penTypeDefinition TypeDef
+hi def link penTodo Todo
