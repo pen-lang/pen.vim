@@ -4,8 +4,8 @@ endif
 
 let b:current_syntax = 'pen'
 
-syn keyword penKeyword go
 syn keyword penBoolean true false
+syn keyword penBuiltIn go size
 syn keyword penNone none
 syn keyword penConditional as else if
 syn keyword penRepeat for in
@@ -23,8 +23,8 @@ syn match penOperator "\(&\||\|->\|=\|==\|/=\|<=\|>=\|<\|>\|+\|-\|*\|/\|?\|!\)"
 
 syn region penString start="\"" skip="\\\"" end="\""
 
-hi def link penKeyword Keyword
 hi def link penBoolean Boolean
+hi def link penBuiltIn Identifier
 hi def link penComment Comment
 hi def link penConditional Conditional
 hi def link penRepeat Repeat
