@@ -5,7 +5,7 @@ endif
 let b:current_syntax = 'pen'
 
 syn keyword penBoolean true false
-syn keyword penBuiltIn debug error go size source
+syn keyword penBuiltIn debug error go race size source
 syn keyword penNone none
 syn keyword penConditional as else if
 syn keyword penRepeat for in
