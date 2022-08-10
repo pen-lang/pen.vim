@@ -21,7 +21,7 @@ syn match penDelimiter "[,()\[\]{}];'"
 syn match penNumber "-\?\(\<\d\+\(\.\d\+\)\?\>\)"
 syn match penOperator "\(&\||\|->\|=\|==\|/=\|<=\|>=\|<\|>\|+\|-\|*\|/\|?\|!\)"
 
-syn region penString start="\"" skip="\\\"" end="\""
+syn region penString start="\"" skip=+\\\\\|\\"+ end="\""
 
 hi def link penBoolean Boolean
 hi def link penBuiltIn Identifier
